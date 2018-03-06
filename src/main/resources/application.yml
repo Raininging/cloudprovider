@@ -6,9 +6,9 @@ spring:
     #数据源
     datasource:
         name: demo-mbd-provider
-        url: jdbc:mysql://172.19.92.75:3306/train_mbd?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
-        username: mbd
-        password: 123456
+        url: jdbc:mysql://localhost:3306/train_mbd?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: xxx
+        password: xxx
         #Mysql驱动
         driver-class-name: com.mysql.jdbc.Driver
         #下面是阿里开源数据库连接池的配置：
@@ -66,7 +66,7 @@ spring:
     #Redis缓存配置
     redis:
         #服务器地址
-        host: 172.19.92.75
+        host: xxx
         #端口
         port: 6379
         #密码
